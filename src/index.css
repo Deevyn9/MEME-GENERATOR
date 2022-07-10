@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.troll {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.troll img {
+    width: 31.31px;
+    height: 26.22px;
+    margin-right: 5px;
+}
+
+.troll h2 {
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+header h3 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    color: #FFFFFF;
+    display: none;
+}
+
+.main {
+    height: calc(100vh - 65px);
+    padding: 31px 20% 0 20%;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input input {
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(213, 212, 216, 1);
+    outline: none;
+    font-size: 17px;
+    padding: 0 2px;
+}
+
+.main button {
+    width: 100%;
+    background-color: #A626D3;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+
+.meme {
+    position: relative;
+}
+
+.memeImage {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
